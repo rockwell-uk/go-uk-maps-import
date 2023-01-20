@@ -1,0 +1,25 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Others
+._.DS_Store
+.DS_Store
+.vscode
+go-uk-maps-import
+sql
+logs
+db
+dev
