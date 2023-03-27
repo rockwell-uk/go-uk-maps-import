@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+
+    importer-app:
+        build:
+            context: ./
+            dockerfile: dockerfile.app
+        volumes:
+            - ./:/app
+        env_file:
+            - ./.env-app
+        tty: true
+        depends_on:
+            - mysql
+            - postgres
+
+    mysql:
+        build:
+            context: ./
+            dockerfile: dockerfile.mysql
+        command: ["--default-authentication-plugin=mysql_native_password"]
+        environment:
+            MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+            MYSQL_ROOT_HOST: '%'
+        volumes:
+            - osdata-mysql-volume:/var/lib/mysql
+
+    postgres:
+        build:
+            context: ./
+            dockerfile: dockerfile.postgres
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: osdata
+
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+            - 8080:8080
+
+volumes:
+  osdata-mysql-volume:
