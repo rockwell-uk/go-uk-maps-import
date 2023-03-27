@@ -43,7 +43,7 @@ github.com/rockwell-uk/go-diskbench v1.0.0/go.mod h1:5kWjMGlL8E+NQ5GEt1mj2W7hjwr
 github.com/rockwell-uk/go-draw v1.0.0 h1:JkhNAl7ekjx463g2ZDojoq4hOTi6sGUL6PIjVTtmybY=
 github.com/rockwell-uk/go-draw v1.0.0/go.mod h1:wIxz9Nnm3vdR589o6a1nbZkZNRuvSTOPGjyAvHP3tug=
 github.com/rockwell-uk/go-geos-draw v1.0.0 h1:cPoo4Fe3xWVYpk3G4b+CQLOZ4uWEHLmvNVpH0yo1XdM=
-github.com/rockwell-uk/go-geos-draw v1.0.0/go.mod h1:N5xHULy0ZNLdZuZooJx/JfJCGV+7r4Oeiz4VJYTI5vE=
+github.com/rockwell-uk/go-geos-draw v1.0.0/go.mod h1:+sCDuBJCa0VYmRBlk5fTH+mB+XEJpKT8UQv6h85axV8=
 github.com/rockwell-uk/go-logger v1.0.0 h1:XeIPPIogeXQwImwgYmlnvoehHcTPfVyQw6aoAld06ww=
 github.com/rockwell-uk/go-logger v1.0.0/go.mod h1:c7krTa0/VvQN3QT8mfVhHSdCmsULVZBUBUNmVp2jpyo=
 github.com/rockwell-uk/go-nationalgrid v1.0.0 h1:KBVMttL4Ny2WjxoVZspYxIi0zUfOkoWoJ2YhLbz0mR4=
