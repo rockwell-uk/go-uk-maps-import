@@ -21,7 +21,7 @@ require (
 	github.com/rockwell-uk/shapefile v1.0.0
 	github.com/rockwell-uk/uiprogress v1.0.0
 	github.com/schollz/sqlite3dump v1.3.1
-	github.com/twpayne/go-geos v0.13.1
+	github.com/twpayne/go-geos v0.13.2
 	golang.org/x/text v0.8.0
 )
 

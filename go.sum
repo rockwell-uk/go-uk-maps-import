@@ -68,8 +68,8 @@ github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXf
 github.com/stretchr/testify v1.8.2 h1:+h33VjcLVPDHtOdpUCuF+7gSuG3yGIftsP1YvFihtJ8=
 github.com/twpayne/go-geom v1.5.1 h1:8MmGNqjDaepxHqA2/J2AftwxKzzCXmQx1gX+syYctyA=
 github.com/twpayne/go-geom v1.5.1/go.mod h1:Ixuwq8wG6UqI/udYOkKFHJIktCHN0yCozVDng4rYQUQ=
-github.com/twpayne/go-geos v0.13.1 h1:z9eL6XbkJc/BZhxrKPOeDZN2I/2NXjXWaJ1UA7fDjhc=
-github.com/twpayne/go-geos v0.13.1/go.mod h1:DdtpdCqA2PDHXN54xgvScmp7p8D0XwS/tvDJsyfBSfU=
+github.com/twpayne/go-geos v0.13.2 h1:kyQenUwpU+mGrNX403KNlRDuIIIL22OHVVj1SGfXUm0=
+github.com/twpayne/go-geos v0.13.2/go.mod h1:r5O89NwzDqYqiDF5HnkYjdgJtODwzpjeNlj/gL9ztXk=
 github.com/wroge/wgs84 v1.1.6 h1:jgG9farIi5nPhhnyZ95DCPLV4sRka+Ijp0JlsXQcz+Q=
 github.com/wroge/wgs84 v1.1.6/go.mod h1:PzgJNcWAjKvdqgO1LAQotG+ALP0d1c4A6Ww5AwqJovM=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
